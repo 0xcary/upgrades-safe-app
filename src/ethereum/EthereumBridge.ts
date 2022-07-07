@@ -21,7 +21,7 @@ export default class EthereumBridge {
   }
 
   public static get provider(): Provider {
-      this._providerInstance = new ethers.providers.JsonRpcProvider('https://rpc-mainnet.kcc.network', "Kucoin Community Chain")
+      this._providerInstance = new ethers.providers.JsonRpcProvider('https://rpc-mainnet.kcc.network')
 
       // const { REACT_APP_INFURA_KEY } = process.env
 
